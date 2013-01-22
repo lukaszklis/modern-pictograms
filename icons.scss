@@ -1,0 +1,634 @@
+$fontFamily: 'Modern Pictograms';
+$fileName: 'modernpictograms-webfont';
+
+@font-face {
+    font-family: $fontFamily;
+    src: url('../fonts/#{$fileName}.eot');
+    src: url('../fonts/#{$fileName}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/#{$fileName}.woff') format('woff'),
+         url('../fonts/#{$fileName}.ttf') format('truetype');
+}
+
+.mp-icon,
+[class^="mp-"]:before,
+[class*=" mp-"]:before,
+[class^="mp-"].right:after,
+[class*=" mp-"].right:after {
+    font-family: $fontFamily;
+}
+
+.mp-camera {
+    &:before,
+    &.right:after {
+        content: "A";
+    }
+}
+
+.mp-book {
+    &:before,
+    &.right:after {
+        content: "B";
+    }
+}
+
+.mp-cd {
+    &:before,
+    &.right:after {
+        content: "C";
+    }
+}
+
+.mp-download {
+    &:before,
+    &.right:after {
+        content: "D";
+    }
+}
+
+.mp-eye {
+    &:before,
+    &.right:after {
+        content: "E";
+    }
+}
+
+.mp-facebook {
+    &:before,
+    &.right:after {
+        content: "F";
+    }
+}
+
+.mp-facebook-alt {
+    &:before,
+    &.right:after {
+        content: "G";
+    }
+}
+
+.mp-handycam {
+    &:before,
+    &.right:after {
+        content: "H";
+    }
+}
+
+.mp-trash {
+    &:before,
+    &.right:after {
+        content: "I";
+    }
+}
+
+.mp-label {
+    &:before,
+    &.right:after {
+        content: "J";
+    }
+}
+
+.mp-file {
+    &:before,
+    &.right:after {
+        content: "K";
+    }
+}
+
+.mp-unlike {
+    &:before,
+    &.right:after {
+        content: "L";
+    }
+}
+
+.mp-ipod {
+    &:before,
+    &.right:after {
+        content: "M";
+    }
+}
+
+.mp-mobile {
+    &:before,
+    &.right:after {
+        content: "N";
+    }
+}
+
+.mp-smartphone {
+    &:before,
+    &.right:after {
+        content: "O";
+    }
+}
+
+.mp-tablet {
+    &:before,
+    &.right:after {
+        content: "Q";
+    }
+}
+
+.mp-refresh {
+    &:before,
+    &.right:after {
+        content: "R";
+    }
+}
+
+.mp-presentation {
+    &:before,
+    &.right:after {
+        content: "S";
+    }
+}
+
+.mp-tumblr {
+    &:before,
+    &.right:after {
+        content: "T";
+    }
+}
+
+.mp-tumblr-alt {
+    &:before,
+    &.right:after {
+        content: "U";
+    }
+}
+
+.mp-notes {
+    &:before,
+    &.right:after {
+        content: "V";
+    }
+}
+
+.mp-windows {
+    &:before,
+    &.right:after {
+        content: "W";
+    }
+}
+
+.mp-cancel {
+    &:before,
+    &.right:after {
+        content: "X";
+    }
+}
+
+.mp-announcement {
+    &:before,
+    &.right:after {
+        content: "Y";
+    }
+}
+
+.mp-text {
+    &:before,
+    &.right:after {
+        content: "Z";
+    }
+}
+
+.mp-news {
+    &:before,
+    &.right:after {
+        content: "a";
+    }
+}
+
+.mp-chat {
+    &:before,
+    &.right:after {
+        content: "b";
+    }
+}
+
+.mp-phone {
+    &:before,
+    &.right:after {
+        content: "c";
+    }
+}
+
+.mp-printer {
+    &:before,
+    &.right:after {
+        content: "d";
+    }
+}
+
+.mp-pencil {
+    &:before,
+    &.right:after {
+        content: "e";
+    }
+}
+
+.mp-male {
+    &:before,
+    &.right:after {
+        content: "f";
+    }
+}
+
+.mp-group {
+    &:before,
+    &.right:after {
+        content: "g";
+    }
+}
+
+.mp-video-camera {
+    &:before,
+    &.right:after {
+        content: "h";
+    }
+}
+
+.mp-cart {
+    &:before,
+    &.right:after {
+        content: "i";
+    }
+}
+
+.mp-heart {
+    &:before,
+    &.right:after {
+        content: "j";
+    }
+}
+
+.mp-female {
+    &:before,
+    &.right:after {
+        content: "k";
+    }
+}
+
+.mp-like {
+    &:before,
+    &.right:after {
+        content: "l";
+    }
+}
+
+.mp-mail {
+    &:before,
+    &.right:after {
+        content: "m";
+    }
+}
+
+.mp-locked {
+    &:before,
+    &.right:after {
+        content: "n";
+    }
+}
+
+.mp-options {
+    &:before,
+    &.right:after {
+        content: "o";
+    }
+}
+
+.mp-home {
+    &:before,
+    &.right:after {
+        content: "p";
+    }
+}
+
+.mp-unlocked {
+    &:before,
+    &.right:after {
+        content: "q";
+    }
+}
+
+.mp-pencil-alt {
+    &:before,
+    &.right:after {
+        content: "r";
+    }
+}
+
+.mp-search {
+    &:before,
+    &.right:after {
+        content: "s";
+    }
+}
+
+.mp-bird {
+    &:before,
+    &.right:after {
+        content: "t";
+    }
+}
+
+.mp-exit-fullscreen {
+    &:before,
+    &.right:after {
+        content: "u";
+    }
+}
+
+.mp-fullscreen {
+    &:before,
+    &.right:after {
+        content: "v";
+    }
+}
+
+.mp-www {
+    &:before,
+    &.right:after {
+        content: "w";
+    }
+}
+
+.mp-cancel-alt {
+    &:before,
+    &.right:after {
+        content: "x";
+    }
+}
+
+.mp-zoom-in {
+    &:before,
+    &.right:after {
+        content: "y";
+    }
+}
+
+.mp-zoom-out {
+    &:before,
+    &.right:after {
+        content: "z";
+    }
+}
+
+.mp-volume-down {
+    &:before,
+    &.right:after {
+        content: "1";
+    }
+}
+
+.mp-volume-up {
+    &:before,
+    &.right:after {
+        content: "2";
+    }
+}
+
+.mp-calendar {
+    &:before,
+    &.right:after {
+        content: "3";
+    }
+}
+
+.mp-list {
+    &:before,
+    &.right:after {
+        content: "4";
+    }
+}
+
+.mp-columns {
+    &:before,
+    &.right:after {
+        content: "5";
+    }
+}
+
+.mp-line-chart {
+    &:before,
+    &.right:after {
+        content: "6";
+    }
+}
+
+.mp-chart {
+    &:before,
+    &.right:after {
+        content: "7";
+    }
+}
+
+.mp-circle-chart {
+    &:before,
+    &.right:after {
+        content: "8";
+    }
+}
+
+.mp-bell {
+    &:before,
+    &.right:after {
+        content: "9";
+    }
+}
+
+.mp-muted {
+    &:before,
+    &.right:after {
+        content: "0";
+    }
+}
+
+.mp-signal {
+    &:before,
+    &.right:after {
+        content: "`";
+    }
+}
+
+.mp-wave {
+    &:before,
+    &.right:after {
+        content: "~";
+    }
+}
+
+.mp-warning {
+    &:before,
+    &.right:after {
+        content: "!";
+    }
+}
+
+.mp-at {
+    &:before,
+    &.right:after {
+        content: "@";
+    }
+}
+
+.mp-bill {
+    &:before,
+    &.right:after {
+        content: "#";
+    }
+}
+
+.mp-money {
+    &:before,
+    &.right:after {
+        content: "$";
+    }
+}
+
+.mp-checked {
+    &:before,
+    &.right:after {
+        content: "%";
+    }
+}
+
+.mp-rss {
+    &:before,
+    &.right:after {
+        content: "^";
+    }
+}
+
+.mp-pin {
+    &:before,
+    &.right:after {
+        content: ",";
+    }
+}
+
+.mp-star {
+    &:before,
+    &.right:after {
+        content: "*";
+    }
+}
+
+.mp-settings {
+    &:before,
+    &.right:after {
+        content: "(";
+    }
+}
+
+.mp-award {
+    &:before,
+    &.right:after {
+        content: ")";
+    }
+}
+
+.mp-triangle-up {
+    &:before,
+    &.right:after {
+        content: "-";
+    }
+}
+
+.mp-cut {
+    &:before,
+    &.right:after {
+        content: "_";
+    }
+}
+
+.mp-plus {
+    &:before,
+    &.right:after {
+        content: "+";
+    }
+}
+
+.mp-info {
+    &:before,
+    &.right:after {
+        content: "=";
+    }
+}
+
+.mp-arrow-down {
+    &:before,
+    &.right:after {
+        content: "[";
+    }
+}
+
+.mp-time {
+    &:before,
+    &.right:after {
+        content: "{";
+    }
+}
+
+.mp-arrow-up {
+    &:before,
+    &.right:after {
+        content: "]";
+    }
+}
+
+.mp-time-alt {
+    &:before,
+    &.right:after {
+        content: "}";
+    }
+}
+
+.mp-stop {
+    &:before,
+    &.right:after {
+        content: "'";
+    }
+}
+
+.mp-colon {
+    &:before,
+    &.right:after {
+        content: ":";
+    }
+}
+
+.mp-semicolon {
+    &:before,
+    &.right:after {
+        content: ";";
+    }
+}
+
+.mp-triangle-left {
+    &:before,
+    &.right:after {
+        content: "<";
+    }
+}
+
+.mp-tringle-right {
+    &:before,
+    &.right:after {
+        content: ">";
+    }
+}
+
+.mp-question {
+    &:before,
+    &.right:after {
+        content: "?";
+    }
+}
+
+.mp-triangle-down {
+    &:before,
+    &.right:after {
+        content: "/";
+    }
+}

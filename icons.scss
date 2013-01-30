@@ -17,618 +17,100 @@ $fileName: 'modernpictograms-webfont';
     font-family: $fontFamily;
 }
 
-.mp-camera {
-    &:before,
-    &.right:after {
-        content: "A";
-    }
-}
-
-.mp-book {
-    &:before,
-    &.right:after {
-        content: "B";
-    }
-}
-
-.mp-cd {
-    &:before,
-    &.right:after {
-        content: "C";
-    }
-}
-
-.mp-download {
-    &:before,
-    &.right:after {
-        content: "D";
-    }
-}
-
-.mp-eye {
-    &:before,
-    &.right:after {
-        content: "E";
-    }
-}
-
-.mp-facebook {
-    &:before,
-    &.right:after {
-        content: "F";
-    }
-}
-
-.mp-facebook-alt {
-    &:before,
-    &.right:after {
-        content: "G";
-    }
-}
-
-.mp-handycam {
-    &:before,
-    &.right:after {
-        content: "H";
-    }
-}
-
-.mp-trash {
-    &:before,
-    &.right:after {
-        content: "I";
-    }
-}
-
-.mp-label {
-    &:before,
-    &.right:after {
-        content: "J";
-    }
-}
-
-.mp-file {
-    &:before,
-    &.right:after {
-        content: "K";
-    }
-}
-
-.mp-unlike {
-    &:before,
-    &.right:after {
-        content: "L";
-    }
-}
-
-.mp-ipod {
-    &:before,
-    &.right:after {
-        content: "M";
-    }
-}
-
-.mp-mobile {
-    &:before,
-    &.right:after {
-        content: "N";
-    }
-}
-
-.mp-smartphone {
-    &:before,
-    &.right:after {
-        content: "O";
-    }
-}
-
-.mp-tablet {
-    &:before,
-    &.right:after {
-        content: "Q";
-    }
-}
-
-.mp-refresh {
-    &:before,
-    &.right:after {
-        content: "R";
-    }
-}
-
-.mp-presentation {
-    &:before,
-    &.right:after {
-        content: "S";
-    }
-}
-
-.mp-tumblr {
-    &:before,
-    &.right:after {
-        content: "T";
-    }
-}
-
-.mp-tumblr-alt {
-    &:before,
-    &.right:after {
-        content: "U";
-    }
-}
-
-.mp-notes {
-    &:before,
-    &.right:after {
-        content: "V";
-    }
-}
-
-.mp-windows {
-    &:before,
-    &.right:after {
-        content: "W";
-    }
-}
-
-.mp-cancel {
-    &:before,
-    &.right:after {
-        content: "X";
-    }
-}
-
-.mp-announcement {
-    &:before,
-    &.right:after {
-        content: "Y";
-    }
-}
-
-.mp-text {
-    &:before,
-    &.right:after {
-        content: "Z";
-    }
-}
-
-.mp-news {
-    &:before,
-    &.right:after {
-        content: "a";
-    }
-}
-
-.mp-chat {
-    &:before,
-    &.right:after {
-        content: "b";
-    }
-}
-
-.mp-phone {
-    &:before,
-    &.right:after {
-        content: "c";
-    }
-}
-
-.mp-printer {
-    &:before,
-    &.right:after {
-        content: "d";
-    }
-}
-
-.mp-pencil {
-    &:before,
-    &.right:after {
-        content: "e";
-    }
-}
-
-.mp-male {
-    &:before,
-    &.right:after {
-        content: "f";
-    }
-}
-
-.mp-group {
-    &:before,
-    &.right:after {
-        content: "g";
-    }
-}
-
-.mp-video-camera {
-    &:before,
-    &.right:after {
-        content: "h";
-    }
-}
-
-.mp-cart {
-    &:before,
-    &.right:after {
-        content: "i";
-    }
-}
-
-.mp-heart {
-    &:before,
-    &.right:after {
-        content: "j";
-    }
-}
-
-.mp-female {
-    &:before,
-    &.right:after {
-        content: "k";
-    }
-}
-
-.mp-like {
-    &:before,
-    &.right:after {
-        content: "l";
-    }
-}
-
-.mp-mail {
-    &:before,
-    &.right:after {
-        content: "m";
-    }
-}
-
-.mp-locked {
-    &:before,
-    &.right:after {
-        content: "n";
-    }
-}
-
-.mp-options {
-    &:before,
-    &.right:after {
-        content: "o";
-    }
-}
-
-.mp-home {
-    &:before,
-    &.right:after {
-        content: "p";
-    }
-}
-
-.mp-unlocked {
-    &:before,
-    &.right:after {
-        content: "q";
-    }
-}
-
-.mp-pencil-alt {
-    &:before,
-    &.right:after {
-        content: "r";
-    }
-}
-
-.mp-search {
-    &:before,
-    &.right:after {
-        content: "s";
-    }
-}
-
-.mp-bird {
-    &:before,
-    &.right:after {
-        content: "t";
-    }
-}
-
-.mp-exit-fullscreen {
-    &:before,
-    &.right:after {
-        content: "u";
-    }
-}
-
-.mp-fullscreen {
-    &:before,
-    &.right:after {
-        content: "v";
-    }
-}
-
-.mp-www {
-    &:before,
-    &.right:after {
-        content: "w";
-    }
-}
-
-.mp-cancel-alt {
-    &:before,
-    &.right:after {
-        content: "x";
-    }
-}
-
-.mp-zoom-in {
-    &:before,
-    &.right:after {
-        content: "y";
-    }
-}
-
-.mp-zoom-out {
-    &:before,
-    &.right:after {
-        content: "z";
-    }
-}
-
-.mp-volume-down {
-    &:before,
-    &.right:after {
-        content: "1";
-    }
-}
-
-.mp-volume-up {
-    &:before,
-    &.right:after {
-        content: "2";
-    }
-}
-
-.mp-calendar {
-    &:before,
-    &.right:after {
-        content: "3";
-    }
-}
-
-.mp-list {
-    &:before,
-    &.right:after {
-        content: "4";
-    }
-}
-
-.mp-columns {
-    &:before,
-    &.right:after {
-        content: "5";
-    }
-}
-
-.mp-line-chart {
-    &:before,
-    &.right:after {
-        content: "6";
-    }
-}
-
-.mp-chart {
-    &:before,
-    &.right:after {
-        content: "7";
-    }
-}
-
-.mp-circle-chart {
-    &:before,
-    &.right:after {
-        content: "8";
-    }
-}
-
-.mp-bell {
-    &:before,
-    &.right:after {
-        content: "9";
-    }
-}
-
-.mp-muted {
-    &:before,
-    &.right:after {
-        content: "0";
-    }
-}
-
-.mp-signal {
-    &:before,
-    &.right:after {
-        content: "`";
-    }
-}
-
-.mp-wave {
-    &:before,
-    &.right:after {
-        content: "~";
-    }
-}
-
-.mp-warning {
-    &:before,
-    &.right:after {
-        content: "!";
-    }
-}
-
-.mp-at {
-    &:before,
-    &.right:after {
-        content: "@";
-    }
-}
-
-.mp-bill {
-    &:before,
-    &.right:after {
-        content: "#";
-    }
-}
-
-.mp-money {
-    &:before,
-    &.right:after {
-        content: "$";
-    }
-}
-
-.mp-checked {
-    &:before,
-    &.right:after {
-        content: "%";
-    }
-}
-
-.mp-rss {
-    &:before,
-    &.right:after {
-        content: "^";
-    }
-}
-
-.mp-pin {
-    &:before,
-    &.right:after {
-        content: ",";
-    }
-}
-
-.mp-star {
-    &:before,
-    &.right:after {
-        content: "*";
-    }
-}
-
-.mp-settings {
-    &:before,
-    &.right:after {
-        content: "(";
-    }
-}
-
-.mp-award {
-    &:before,
-    &.right:after {
-        content: ")";
-    }
-}
-
-.mp-triangle-up {
-    &:before,
-    &.right:after {
-        content: "-";
-    }
-}
-
-.mp-cut {
-    &:before,
-    &.right:after {
-        content: "_";
-    }
-}
-
-.mp-plus {
-    &:before,
-    &.right:after {
-        content: "+";
-    }
-}
-
-.mp-info {
-    &:before,
-    &.right:after {
-        content: "=";
-    }
-}
-
-.mp-arrow-down {
-    &:before,
-    &.right:after {
-        content: "[";
-    }
-}
-
-.mp-time {
-    &:before,
-    &.right:after {
-        content: "{";
-    }
-}
-
-.mp-arrow-up {
-    &:before,
-    &.right:after {
-        content: "]";
-    }
-}
-
-.mp-time-alt {
-    &:before,
-    &.right:after {
-        content: "}";
-    }
-}
-
-.mp-stop {
-    &:before,
-    &.right:after {
-        content: "'";
-    }
-}
-
-.mp-colon {
-    &:before,
-    &.right:after {
-        content: ":";
-    }
-}
-
-.mp-semicolon {
-    &:before,
-    &.right:after {
-        content: ";";
-    }
-}
-
-.mp-triangle-left {
-    &:before,
-    &.right:after {
-        content: "<";
-    }
-}
-
-.mp-triangle-right {
-    &:before,
-    &.right:after {
-        content: ">";
-    }
-}
-
-.mp-question {
-    &:before,
-    &.right:after {
-        content: "?";
-    }
-}
-
-.mp-triangle-down {
-    &:before,
-    &.right:after {
-        content: "/";
-    }
-}
+@mixin icon($char, $icon) {
+    .mp-#{$icon} {
+        &:before,
+        &.right:after {
+            content: $char;
+        }
+    }
+}
+
+@include icon("A", "camera");
+@include icon("B", "book");
+@include icon("C", "cd");
+@include icon("D", "download");
+@include icon("E", "eye");
+@include icon("F", "facebook");
+@include icon("G", "facebook-alt");
+@include icon("H", "handycam");
+@include icon("I", "trash");
+@include icon("J", "label");
+@include icon("K", "file");
+@include icon("L", "unlike");
+@include icon("M", "ipod");
+@include icon("N", "mobile");
+@include icon("O", "smartphone");
+@include icon("Q", "tablet");
+@include icon("R", "refresh");
+@include icon("S", "presentation");
+@include icon("T", "tumblr");
+@include icon("U", "tumblr-alt");
+@include icon("V", "notes");
+@include icon("W", "windows");
+@include icon("X", "cancel");
+@include icon("Y", "announcement");
+@include icon("Z", "text");
+@include icon("a", "news");
+@include icon("b", "chat");
+@include icon("c", "phone");
+@include icon("d", "printer");
+@include icon("e", "pencil");
+@include icon("f", "male");
+@include icon("g", "group");
+@include icon("h", "video-camera");
+@include icon("i", "cart");
+@include icon("j", "heart");
+@include icon("k", "female");
+@include icon("l", "like");
+@include icon("m", "mail");
+@include icon("n", "locked");
+@include icon("o", "options");
+@include icon("p", "home");
+@include icon("q", "unlocked");
+@include icon("r", "pencil-alt");
+@include icon("s", "search");
+@include icon("t", "bird");
+@include icon("u", "exit-fullscreen");
+@include icon("v", "fullscreen");
+@include icon("w", "www");
+@include icon("x", "cancel-alt");
+@include icon("y", "zoom-in");
+@include icon("z", "zoom-out");
+@include icon("1", "volume-down");
+@include icon("2", "volume-up");
+@include icon("3", "calendar");
+@include icon("4", "list");
+@include icon("5", "columns");
+@include icon("6", "line-chart");
+@include icon("7", "chart");
+@include icon("8", "circle-chart");
+@include icon("9", "bell");
+@include icon("0", "muted");
+@include icon("`", "signal");
+@include icon("~", "wave");
+@include icon("!", "warning");
+@include icon("@", "at");
+@include icon("#", "bill");
+@include icon("$", "money");
+@include icon("%", "checked");
+@include icon("^", "rss");
+@include icon(",", "pin");
+@include icon("*", "star");
+@include icon("(", "settings");
+@include icon(")", "award");
+@include icon("-", "triangle-up");
+@include icon("_", "cut");
+@include icon("+", "plus");
+@include icon("=", "info");
+@include icon("[", "arrow-down");
+@include icon("{", "time");
+@include icon("]", "arrow-up");
+@include icon("}", "time-alt");
+@include icon("'", "stop");
+@include icon(":", "colon");
+@include icon(";", "semicolon");
+@include icon("<", "triangle-left");
+@include icon(">", "triangle-right");
+@include icon("?", "question");
+@include icon("/", "triangle-down");

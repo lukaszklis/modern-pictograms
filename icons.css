@@ -350,8 +350,8 @@
 .mp-triangle-left.right:after {
     content: "<";
 }
-.mp-tringle-right:before,
-.mp-tringle-right.right:after {
+.mp-triangle-right:before,
+.mp-triangle-right.right:after {
     content: ">";
 }
 .mp-question:before,
